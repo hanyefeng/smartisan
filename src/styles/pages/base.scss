@@ -1,0 +1,14 @@
+@import "mixins";
+html,body,ul,li,ol,dl,dt,dd,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img,input,figure,figcaption{margin:0;padding:0;}
+html{height: 100%;background: #ededed;}
+body{color: #666; font-size: 14px;}
+h1,h2,h3,h4,h5,h6{font-weight: normal;font-size:100%; }
+ul,li,ol{list-style: none;}
+b,strong{font-weight: normal;}
+i,em{font-style: normal;}
+a{cursor: pointer;}
+a,u{text-decoration: none;}
+img{display: block; border:none;}
+input{outline: none;}
+.clear_fix:after{content:'';display: block;clear:both;height: 0; overflow: hidden; visibility: hidden;}
+.clear_flx{zoom:1;}
